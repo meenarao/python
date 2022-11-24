@@ -1,6 +1,5 @@
+#reading a file 
 f = open("files.txt","r")
 content=f.readline()
-contents=f.readline()
 print(content)
-print(contents)
 f.close()
